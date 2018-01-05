@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-xs-12 warp collocation-map-bottom">
+        {{if (style || laudCount) && !hiddenRow1}}
+        <div class="praise clearfix">
+            <div class="pull-left"><img src="{{url}}/share/zan_icon3.png"/><label>{{laudCount}}</label>&nbsp;人赞过</div>
+			{{each style as item i}}
+			<div class="pull-right map-style" the-id="{{item.theId}}">&nbsp;&nbsp;#{{item.name}}</div>
+			{{/each}}
+        </div>
+        {{/if}}
+        {{if place && !hiddenRow2}}
+        <div class="address">
+            <img src="{{url}}/share/address_icon.png"/><span class="address-span" the-id="{{place.theId}}">{{place.name}}</span>
+        </div>
+        {{/if}}
+        <div class="description font-big">
+            <p>
+                {{descrp}}
+            </p>
+        </div>
+        {{if footer}}
+        <div class="clearfix font-big operation">
+            <div class="pull-left footer-label"><span></span><img src="{{url}}/share/zan_icon1.png"/>赞</div>
+            <div class="pull-left footer-label remark"><span></span><img src="{{url}}/share/remark_icon.png"/>评论<label></label></div>
+            <div class="pull-right footer-label more"><span></span><img src="{{url}}/share/more_icon.png"/></div>
+        </div>
+        {{/if}}
+    </div>
+</div>

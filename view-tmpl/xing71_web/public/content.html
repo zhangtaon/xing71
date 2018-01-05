@@ -1,0 +1,35 @@
+<div class="web-content">
+    <div class="content-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    {{include "./carousel"}}
+                </div>
+                <div class="col-xs-4">
+                    <div class="carousel-right pull-right">
+                        <a href="/xing71.html" target="_blank"><img src="{{config.url}}/home/download.png"/></a>
+                        <a href="./troopOrSearch.html" target="_blank"><img src="{{config.url}}/home/daily.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+                <div class="star-menu">
+                    <ul class="style-navebar">
+                        <li {{if currentTpid=="-1"}}class="active"{{/if}} tpid=-1><span>全部</span></li>
+                        {{each styles as style i}}
+                        <li {{if currentTpid == style.tpid}}class="active"{{/if}} tpid={{style.tpid}}><span>{{style.tpName}}</span></li>
+                        {{/each}}
+                    </ul>
+                    <div class="slash-bottom"></div>
+                </div>
+                <div class="waterfall-flow">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+{"status": 200, "message": "成功", "debug": null, "attachment": {
+    "descrp": "",
+    "id": 11953,
+    "icon": 16929428,
+    "parentId": 860,
+    "price": 0,
+    "items": [
+        {
+            "id": 75506,
+            "user": null,
+            "name": "【顺丰空运】15夏LESHOP韩代正品-LF4DP610A 个性牛仔短裤 5-1",
+            "icon": 16929428,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.46.jKMp1U&id=45191688133&ns=1&abbucket=5#detail",
+            "price": 41088,
+            "createTime": 1432035517000,
+            "openid": "AAHaDYtQABstkeZtBa_glXm-",
+            "taoke": 1,
+            "official": 1
+        },
+        {
+            "id": 56247,
+            "user": null,
+            "name": "韩版2015夏装新款女简约 直筒显瘦大码磨破洞牛仔短裤",
+            "icon": 16545139,
+            "tbUrl": "",
+            "price": 14900,
+            "createTime": 1430392733000,
+            "openid": "AAHIDYtQABstkeZtBa_kR4zj",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 38400,
+            "user": null,
+            "name": "七格格OTHERMIX2015夏新品 水洗做旧破洞牛仔短裤 女",
+            "icon": 16269020,
+            "tbUrl": "http://detail.tmall.com/item.htm?spm=a230r.1.14.9.k0nIQm&id=44539002816&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=&_u=gvgq8p0fed6&abbucket=5",
+            "price": 12990,
+            "createTime": 1429173489000,
+            "openid": "AAHZDYtQABstkeZtBa87jCm7",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 37719,
+            "user": null,
+            "name": "DNVIE 牛仔短裤 女 2015春夏新款 大码宽松热裤潮韩版破洞短裤 女",
+            "icon": 16259306,
+            "tbUrl": "http://detail.tmall.com/item.htm?spm=a230r.1.14.320.vhdRQk&id=43844569662&ns=1&abbucket=17",
+            "price": 10900,
+            "createTime": 1429104648000,
+            "openid": "AAE_DYtQABstkeZtBa9QYBxF",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 37718,
+            "user": null,
+            "name": "大小姐 大爱自留款 经典百搭浅色破洞磨破牛仔热裤 短裤#1420",
+            "icon": 16259276,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.293.vhdRQk&id=44384572956&ns=1&abbucket=17#detail",
+            "price": 8500,
+            "createTime": 1429104605000,
+            "openid": "AAE2DYtQABstkeZtBa8wscBn",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 38408,
+            "user": null,
+            "name": "2015新款牛仔短裤女夏 潮 水洗宽松大码短牛仔裤百搭阔腿卷边破洞",
+            "icon": 16269104,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.52.dOhLtn&id=38377272722&ns=1&_u=gvgq8p0b1c7&abbucket=5#detail",
+            "price": 5900,
+            "createTime": 1429173866000,
+            "openid": "AAGDDYtQABstkeZtBa2KQaPp",
+            "taoke": 1,
+            "official": 0
+        }
+    ],
+    "name": "LESHOP破洞牛仔短裤",
+    "brand": {
+        "tpid": 860,
+        "venusCount": 21,
+        "name": "LESHOP",
+        "icon": 14505492,
+        "url": "http://www.leshopkorea.co.kr/",
+        "classType": 2
+    },
+    "mids": [16929428],
+    "url": "http://www.leshopkorea.co.kr/"
+}}

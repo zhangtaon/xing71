@@ -1,0 +1,31 @@
+{{if vd}}
+<div>
+	<div class="layer">
+	    <div id="close"><img src="{{url}}/share/close.png" width="100%"/></div>
+	    <div style="clear:both;"></div>
+	    {{if vd.fashion && vd.fashion>0}}
+	    <div class="reward">
+	        <div class="rewardText">
+	            由于我B格满满，时尚指数爆棚提升<br />
+	            <span class="money">
+	                <i>+ {{vd.fashion}}</i>
+	            </span>
+	            <span class="money2">点！</span>
+	        </div>
+	    </div>
+	    {{/if}}
+	    {{if vd.amount && vd.amount>0}}
+	    <div class="reward">
+	        <div class="rewardText">
+	            由于我B格满满，刚获得<br />
+	                <span class="money">
+	                    <i>+ {{vd.amount}}</i>
+	                </span>
+	            <span class="money2">金币！</span>
+	        </div>
+	    </div>
+	    {{/if}}
+	</div>
+	<div class="mask"></div>
+ </div>
+{{/if}}

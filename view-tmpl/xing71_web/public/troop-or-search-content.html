@@ -1,0 +1,51 @@
+<div class="web-content troop">
+    <div class="content-top">
+        <div class="container">
+            <div class="row">
+                <div class="troop-navbar">
+                    <ol class="breadcrumb">
+                        {{each menus as menu i}}
+                        <li {{if i==menus.length-1}}class="active"{{/if}}>
+                        {{if i!=menus.length-1}}
+                        <a href="{{menu.url}}">
+                        {{/if}}
+                        {{menu.name}}
+                        {{if i!=menus.length-1}}
+                        </a>
+                        {{/if}}
+                        </li>
+                        {{/each}}
+                    </ol>
+                </div>
+            </div>
+            {{if troopJson}}
+            <div class="row troop-star">
+                <div class="troop-star-content clearfix">
+                    <div class="pull-left star-name">
+                        <img src="{{url}}">{{troopJson.name}}
+                    </div>
+                    <div class="attention pull-right">
+                        <img src="{{config.url}}/home/diamond.png"><span>关注：</span><span class="num">{{troopJson.followCount}}</span>
+                    </div>
+                    <div class="same-paragraph pull-right">
+                        <img src="{{config.url}}/home/diamond.png"><span>同款：</span><span class="num">{{troopJson.itemCount}}</span>
+                    </div>
+                    <div class="collocation pull-right">
+                        <img src="{{config.url}}/home/diamond.png"><span>搭配：</span><span class="num">{{troopJson.venusCount}}</span>
+                    </div>
+                </div>
+                <div class="slash-bottom"></div>
+            </div>
+            {{/if}}
+        </div>
+    </div>
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+                <div class="waterfall-flow">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

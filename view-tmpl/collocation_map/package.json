@@ -1,0 +1,20 @@
+{
+    "name": "template",
+    "version": "1.0.0",
+    "dependencies": {
+        "tmodjs": "1.0.2"
+    },
+    "tmodjs-config": {
+        "output": "../../static/venus/tpl",
+        "charset": "utf-8",
+        "syntax": "simple",
+        "helpers": null,
+        "escape": true,
+        "compress": true,
+        "type": "default",
+        "runtime": "collocation-map.tmpl.js",
+        "combo": true,
+        "minify": true,
+        "cache": false
+    }
+}

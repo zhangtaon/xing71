@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxinum-scale=1.0, user-scalable=no"/>
+    <meta name="author" content="zto"/>
+    <meta name="description" content="public share"/>
+    <link href="./css/share.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<script id="tmpl" type="text/html">
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-xs-12">
+            <a href="http://www.ixingji.com//mdown/appdown.html?p=X584"><img src="img/logo.png" width="100%"/></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 map">
+            <img class="collocation-map" src="img/221244_0_0_2_80.jpg"/>
+
+            <div class="model-name">
+                {{each star as value i}}
+                <div>
+                    <span class='circle-icon'></span>
+                    <span class="label-text">{{value}}</span>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 warp">
+            <div class="praise clearfix">
+                <div class="pull-left"><img src="img/zan_icon1.png"/><label>{{laudCount}}</label>人赞过</div>
+                {{each style as value i}}
+                <div class="pull-right">&nbsp;&nbsp;{{value}}</div>
+                {{/each}}
+            </div>
+            <div class="address">
+                <img src="img/address_icon.png"/>{{place}}
+            </div>
+            <div class="description font-big">
+                <p>
+                    {{descrp}}
+                </p>
+            </div>
+            <div class="clearfix font-big operation hidden">
+                <div class="pull-left footer-label"><span></span><img src="img/zan_icon2.png"/>赞</div>
+                <div class="pull-left footer-label remark"><span></span><img src="img/remark_icon.png"/>评论<label></label></div>
+                <div class="pull-right footer-label"><span></span>...</div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+<script src="./js/share.js"></script>
+</body>
+</html>

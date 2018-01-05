@@ -1,0 +1,85 @@
+<div class="container-fluid group-header font-big">
+    <div class="row logo warp">
+        <div class="col-xs-12">
+            <div class="pull-left logo-left">
+                <img src="{{logoUrl}}" width="100%"/>
+            </div>
+            <div class="pull-left logo-center">
+                <div class="cell">
+                    <div class="star-name">{{troop.name}}</div>
+                    <div class="attention">关注：<span>{{attention}}</span></div>
+                </div>
+            </div>
+            <div class="pull-right logo-right table">
+                <div class="cell">
+                    <span class="btn">+关注</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{if !empty}}
+    <div class="row used addresses warp">
+        <div class="col-xs-12 clearfix">
+            <div class="prop">
+                <span class="group-text">TA去过:</span>
+            </div>
+            <div class="prop-val">
+                <ul class="clearfix">
+                    {{each addresses as item}}
+                    <li>
+                        <img src="{{url}}/share/address_icon.png">
+                        <span class="group-text">{{item.name}}</span>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="more">
+                <div class="table">
+                    <div class="cell">
+                        <img src="{{url}}/share/right_icon.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row used user-brand warp">
+        <div class="col-xs-12 clearfix ">
+            <div class="prop table">
+                <span class="group-text cell">TA用过:</span>
+            </div>
+            <div class="prop-val">
+                <ul class="clearfix">
+                    {{each userBrand as brand}}
+                    <li>
+                        <img src="{{brand.url}}"/>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="more">
+                <div class="table">
+                    <div class="cell">
+                        <img src="{{url}}/share/right_icon.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+    {{if empty}}
+    <div class="row">
+        <div class="col-xs-12 clearfix">
+            <div class="empty-icon">
+                <img src="{{url}}/share/one.png">
+            </div>
+            <div class="empty">
+                <span class="empty-label">空空如也</span>
+                <span class="empty-desc">如果你有"{{troop.name}}"的时尚搭配图，可以投稿到op@ishehui.com,采纳有礼品</span>
+            </div>
+            <div class="best-match">
+                <span>每日最佳搭配</span>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+</div>

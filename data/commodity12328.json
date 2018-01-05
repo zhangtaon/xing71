@@ -1,0 +1,92 @@
+{"status": 200, "message": "成功", "debug": null, "attachment": {
+    "descrp": "",
+    "id": 12328,
+    "icon": 16975721,
+    "parentId": 0,
+    "price": 0,
+    "items": [
+        {
+            "id": 77260,
+            "user": null,
+            "name": "三福2015夏季新款女装 韩版翻领外搭小外套 时尚女马甲背心343737",
+            "icon": 16975757,
+            "tbUrl": "http://detail.tmall.com/item.htm?spm=a230r.1.14.122.mU7ukS&id=45015104864&ns=1&abbucket=5&sku_properties=1627207:28320",
+            "price": 15100,
+            "createTime": 1432276780000,
+            "openid": "AAH-DYtQABstkeZtBa8eLOsb",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 77255,
+            "user": null,
+            "name": "超步 2015新薄款牛仔马甲女夏短款无袖牛仔背心白色修身显瘦外套",
+            "icon": 16975741,
+            "tbUrl": "http://detail.tmall.com/item.htm?spm=a230r.1.14.95.mU7ukS&id=39007094251&ns=1&abbucket=5&sku_properties=1627207:28320",
+            "price": 14900,
+            "createTime": 1432276706000,
+            "openid": "AAH0DYtQABstkeZtBaxwNhOQ",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 77252,
+            "user": null,
+            "name": "2015春夏新款欧美摇滚铆钉纯白色短款弹力修身帅气女牛仔马甲马夹",
+            "icon": 16975723,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.256.mU7ukS&id=17651513517&ns=1&abbucket=5&sku=1627207:28320;1627207:19547332#detail",
+            "price": 11800,
+            "createTime": 1432276609000,
+            "openid": "AAHIDYtQABstkeZtBaF5K67W",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 77263,
+            "user": null,
+            "name": "2014女夏装韩版时尚百搭短款白色薄款牛仔马甲马夹无袖外套大码潮",
+            "icon": 16975770,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.260.fhqUau&id=39195743001&ns=1&abbucket=5#detail",
+            "price": 9500,
+            "createTime": 1432276843000,
+            "openid": "AAFfDYtQABstkeZtBaxFCIVi",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 77262,
+            "user": null,
+            "name": "包邮 2015春夏新款白色牛仔马甲/夹 女 修身百搭无袖破洞马甲欧美",
+            "icon": 16975760,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.23.fhqUau&id=39061900795&ns=1&abbucket=5#detail",
+            "price": 6900,
+            "createTime": 1432276835000,
+            "openid": "AAH1DYtQABstkeZtBax9cluA",
+            "taoke": 1,
+            "official": 0
+        },
+        {
+            "id": 77267,
+            "user": null,
+            "name": "韩版BF欧美风字母印花马卡龙色百搭宽松休闲纯棉牛仔马甲女6146C",
+            "icon": 16975791,
+            "tbUrl": "http://item.taobao.com/item.htm?spm=a230r.1.14.188.fhqUau&id=45223989569&ns=1&abbucket=5#detail",
+            "price": 4900,
+            "createTime": 1432276968000,
+            "openid": "AAFJDYtQABstkeZtBa_iuEc6",
+            "taoke": 1,
+            "official": 0
+        }
+    ],
+    "name": "白色牛仔马甲",
+    "brand": {
+        "tpid": null,
+        "venusCount": 0,
+        "name": null,
+        "icon": null,
+        "url": null,
+        "classType": 0
+    },
+    "mids": [16975721],
+    "url": ""
+}}

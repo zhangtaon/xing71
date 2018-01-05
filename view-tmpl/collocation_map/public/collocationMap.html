@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-12 map" vid="{{vid}}">
+        <img class="collocation-map" src="{{mapUrl}}"/>
+        <div class="collocation-map-gradient">
+            <img src="{{url}}/share/bottom_gradient.png">
+        </div>
+        <div class="model-name">
+            {{each stars as star i}}
+            <div>{{star}}
+                <span class="circle-icon"></span>
+                <span class="label-text" star-id="{{star.starId}}" the-id="{{star.theId}}">{{star.starName}}</span>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+

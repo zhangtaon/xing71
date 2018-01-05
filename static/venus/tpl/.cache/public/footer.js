@@ -1,0 +1,9 @@
+/*TMODJS:{"version":49,"md5":"c8d968c9e2c2ed0a17556a12031f3ffd"}*/
+template('public/footer',function($data,$filename) {
+'use strict';var $utils=this,$helpers=$utils.$helpers,hidden=$data.hidden,$out='';$out+='<div class="web-footer"> ';
+if(!hidden){
+$out+=' <div class="links"> <div class="container"> <p class="link-label">友情链接</p> <div class="union"> <a href="http://www.9ht.com/" target="_blank">九号塔下载</a>| <a href="http://www.paopaoche.net/" target="_blank">跑跑车下载</a>| <a href="http://www.7230.com/" target="_blank">7230下载</a>| <a href="http://www.xdowns.com/" target="_blank">绿盟软件下载</a>| <a href="http://www.33lc.com/" target="_blank">绿茶软件园</a>| <a href="http://www.cncrk.com/" target="_blank">起点下载</a>| <a href="http://www.52z.com" target="_blank">飞翔下载</a>| <a href="http://www.haote.com/" target="_blank">好特网</a>| <a href="http://www.huacolor.com" target="_blank">华彩软件站</a>| <a href="http://www.downkr.com/" target="_blank">当客软件园</a>| <a href="http://soft.aizhan.com/" target="_blank">爱站软件</a> </div> <div class="union"> <a href="http://www.orsoon.com" target="_blank">未来软件园</a>| <a href="http://www.gezila.com/" target="_blank">格子啦下载</a>| <a href="http://www.xpgod.com/" target="_blank">系统天堂</a>| <a href="http://www.rsdown.cn/" target="_blank">红软基地</a>| <a href="http://www.wmzhe.com/" target="_blank">完美下载</a>| <a href="http://www.tompda.com/soft/" target="_blank">手机软件</a>| <a href="http://www.121down.com/" target="_blank">121下载站</a>| <a href="http://www.ouyaoxiazai.com" target="_blank">偶要下载站</a>| <a href="http://www.sdbeta.com" target="_blank">闪电下载吧</a>| <a href="http://www.51HANHUA.com" target="_blank">无忧下载站</a>| <a href="http://www.rar8.net/" target="_blank">软吧下载</a> </div> </div> </div> ';
+}
+$out+=' <div class="company-info"> <div class="container"> <p>Copyright © 2015 www.xing71.com 京ICP备11047534号-10 All Rights Re</p> <p>爱摄汇（北京）信息技术有限公司 版权所有</p> </div> </div> </div>';
+return new String($out);
+});

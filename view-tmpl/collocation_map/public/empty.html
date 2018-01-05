@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-xs-12 warp">
+        <div class="praise clearfix">
+            <div class="pull-left"><img src="{{url}}/share/zan_icon1.png"/><label>{{laudCount}}</label>人赞过</div>
+			{{each style as value i}}
+			<div class="pull-right">&nbsp;&nbsp;#{{value}}</div>
+			{{/each}}
+        </div>
+        <div class="address">
+            <img src="{{url}}/share/address_icon.png"/>{{place}}
+        </div>
+        <div class="description font-big">
+            <p>
+                {{descrp}}
+            </p>
+        </div>
+        <div class="clearfix font-big operation hidden">
+            <div class="pull-left footer-label"><span></span><img src="{{url}}/share/zan_icon2.png"/>赞</div>
+            <div class="pull-left footer-label remark"><span></span><img src="{{url}}/share/remark_icon.png"/>评论<label></label></div>
+            <div class="pull-right footer-label"><span></span>...</div>
+        </div>
+    </div>
+</div>
